@@ -14,6 +14,12 @@ A lightweight AI-powered dashboard for analyzing Finnish vocational education da
 
 The application fetches student data, visualizes trends between years, and generates insights for decision-making using AI.
 
+## Live Demo
+
+A running version of the application is available at:
+
+https://vornit-educational-data-ai-dashboard.hf.space
+
 ## Setup
 
 Clone the repository:
