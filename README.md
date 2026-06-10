@@ -1,3 +1,13 @@
+---
+title: Educational Data AI Dashboard
+emoji: 📊
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+app_file: app.py
+pinned: false
+---
+
 # Educational Data AI Dashboard
 
 A lightweight AI-powered dashboard for analyzing Finnish vocational education data from the Vipunen API.
