@@ -4,18 +4,34 @@ A lightweight AI-powered dashboard for analyzing Finnish vocational education da
 
 The application fetches student data, visualizes trends between years, and generates insights for decision-making using AI.
 
-## Running locally
+## Setup
 
-Install dependencies:
+Clone the repository:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/vornit/educational-data-ai-dashboard.git
+cd educational-data-ai-dashboard
 ```
+
 
 Create a `.env` file:
 
 ```env
 OPENROUTER_API_KEY=your_api_key
+```
+
+You can generate an API key at:
+
+https://openrouter.ai/
+
+## Running
+
+### Running locally
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
 
 Run the application:
@@ -30,7 +46,7 @@ The app will be available at:
 http://localhost:7860
 ```
 
-## Running with Docker
+### Running with Docker
 
 Build the image:
 
