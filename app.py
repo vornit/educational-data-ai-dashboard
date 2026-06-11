@@ -232,7 +232,7 @@ def generate_ai_analysis(analysis_type):
     """
     try:
         response = client.chat.completions.create(
-            model="openrouter/auto",
+            model=os.getenv("OPENROUTER_MODEL"),
             messages=[
                 {
                     "role": "user",
@@ -320,5 +320,9 @@ with gr.Blocks(title="Vipunen AI Dashboard") as app:
 if __name__ == "__main__":
     app.launch(
         server_name="0.0.0.0",
-        server_port=7860
+        server_port=7860,
+        auth=(
+            os.getenv("APP_USERNAME"),
+            os.getenv("APP_PASSWORD")
+        )
     )

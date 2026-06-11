@@ -30,10 +30,12 @@ cd educational-data-ai-dashboard
 ```
 
 
-Create a `.env` file:
+Create a `.env` file and set the following environment variables:
 
 ```env
 OPENROUTER_API_KEY=your_api_key
+APP_USERNAME=user
+APP_PASSWORD=password
 ```
 
 You can generate an API key at:
